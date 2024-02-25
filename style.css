@@ -229,3 +229,68 @@ footer{
         
     }
 }
+@media(min-width: 1920px){
+   
+    main section{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        /* border: 1px solid; */
+    }
+    .main-inner-img{
+        width: 90rem;
+    }
+
+    .main-inner-text{
+        font-size: 32px;
+        /* border: 1px solid; */
+        margin: auto;
+        display: flex;
+        justify-content: left;
+        text-align: left;
+        position: relative;
+        bottom: 67px;
+        
+
+    }
+    .main-inner-text h2{
+        /* border: 1px solid; */
+        width: 70%;
+        margin-left: 55px;
+        padding-left: 0px;
+    }
+    .main-inner-text p{
+        margin: auto;
+        font-size: 18px;
+        margin-left: 55px;
+        /* border: 1px solid; */
+        /* width: 88%; */
+        /* display: flex;
+        justify-content: center; */
+        
+
+    }
+    .main-inner-text button{
+        color: blueviolet;
+        font-size: 20px;
+        width: 12rem;
+        height: 3rem;
+        margin-left: 53px;
+        border: 1px solid;
+    }
+
+    .foot{
+        /* border: 1px solid; */
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        position: relative;
+        bottom: 40px;
+        left: 800px;
+        bottom: 1rem;
+        /* height: 50px; */
+        
+        
+    }
+}
